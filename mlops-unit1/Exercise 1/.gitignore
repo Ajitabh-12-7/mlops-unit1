@@ -1,9 +1,0 @@
-.venv/
-**/.venv/
-__pycache__/
-*.pyc
-.ipynb_checkpoints/
-
-# local artifacts
-**/artifacts/
-**/models/*.joblib
