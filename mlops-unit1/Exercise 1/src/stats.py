@@ -27,6 +27,8 @@ def main() -> int:
     print(df.head())
     print("\nColumn types:")
     print(df.dtypes)
+    print("\nColumns:")
+    print(list(df.columns))
 
     numeric = df.select_dtypes(include="number")
     if numeric.shape[1] > 0:
